@@ -1,0 +1,157 @@
+body{
+    font-family: sans-serif;
+    background-color: #fff4dd;
+    margin: 0;
+    padding: 0;
+    color:#222;
+}
+h1{
+    font-size:larger;
+}
+header{
+    
+    padding: 20px;
+    background-color: #fffdf8;
+    border-bottom: 1px solid #ffd580;
+}
+
+#total_container{
+    display: flex;
+    justify-content: center;
+    background-color: #fff4dd;
+    
+}
+
+.card{
+    border: 1px solid #ffcc80;
+    background-color: #fffdf8;
+    border-radius: 10px;
+    padding: 15px;
+    margin:15px;
+    width:1200px;
+    font-size: small;
+}
+
+#readers_books_buttons{
+    display: flex;
+    justify-content:left;
+    gap: 5px;
+    padding-left: 15px;
+    width: 172px;
+    border: 1px solid #ffcc80;
+    background-color: #fffdf8;
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+#readers_books_buttons button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #f0e0b6;
+    cursor: pointer;
+    margin: auto;
+}
+
+#readers_books_buttons button.active{
+    background-color: #ffcc66;
+}
+#header_readers_section, #books_readers_section{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+#header_readers_section .text_block h2{
+    margin:0;
+
+}
+
+#header_readers_section .text_block {
+  display: flex;
+  flex-direction: column;       
+}
+
+.text_block{
+
+}
+
+#readers_section{
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#books_section{
+
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.add_btn{
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#readers_list, #books_list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px
+}
+
+.book_card, .reader_card{
+    border:1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #fffdf8;
+    width: 250px;
+
+}
+
+.modal{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4); ;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+#form_btn{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.hidden{
+    display: none;
+}
+
+.primary{
+    background-color: #222;
+    color: white;
+    border:none;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
